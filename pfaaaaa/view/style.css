@@ -1,0 +1,161 @@
+
+header{
+	background-color: #DCDCDC ;
+}
+#top-nav  {
+list-style-type: none;
+margin-left : 800px;
+padding : 0;
+display: flex;
+margin-top: 2%;
+font-weight: bold;}
+.hl{
+color: red;
+margin-left: 100px;
+}
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+background-color: #F8F8FF;
+}
+
+/* Header styles */
+#header {
+  background-color: #DCDCDC;
+  color: #fff;
+  padding: 20px;
+  height: 80px;
+  padding-right: 50px;
+}
+
+#logo {
+  max-width: 100%;
+  height: 100px;
+  float: left;
+}
+
+.hl {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+/* Driver section styles */
+#driver {
+  background-image: url('img_accueil/drive.jpg');
+  height: 700px;
+  margin-top: auto;
+  width: 100%;
+background-size: 100%;
+}
+#driver:hover {
+  background-image: url('img_accueil/drive1.jpg');
+  height: 700px;
+  margin-top: auto;
+  width: 100%;
+background-size: 100%;
+transition: 3s;
+}
+#driver h2 {
+  max-width: 100%; /* Limit the width of the h2 element */
+  margin-bottom: 20px; /* Add some space between h2 and the link */
+}
+
+/* Main content section styles */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.hl {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:1px 1px 5px grey;
+  }
+.hl:hover {
+    text-decoration: underline;
+      color: #DC143C;
+      font-size: 16px;
+      transition: 1s;
+
+  }
+
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #DC143C;
+  font-family: font-family: Georgia, serif;;
+}
+
+  #top-nav{
+    margin-right: auto;
+    margin-left: 50%;
+
+  }
+  .ed {
+   color: #DC143C;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:1px 1px 5px #343434; 
+  }
+ 
+ #phrase {
+	 color : white;
+ }
+  
+        figure {
+            text-align: center;
+            margin-right: 20px; /* Espacement entre les images */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            overflow: hidden; /* Pour cacher les coins arrondis en dehors de la figure */
+			display : inline block;
+        }
+
+        figure img {
+            width: 40%; /* Les images occuperont 100% de la largeur de leur conteneur */
+            height: 40%;
+        }
+
+        figcaption {
+            font-style: italic;
+            padding: 10px;
+        }
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1); /* Taille normale */
+  }
+  100% {
+    transform: scale(1.1); /* Zoom à 120% de la taille normale */
+  }
+}
+
+figure:hover img {
+  animation: zoomIn 2s forwards; /* Animation de zoom sur l'image pendant 2 secondes */
+}

@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #444;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  main section {
+    margin-bottom: 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  main h2 {
+    margin-top: 0;
+  }
+  
+  main input[type="text"],
+  main input[type="text"]:focus,
+  main input[type="radio"]:focus,
+  main input[type="text"] + label,
+  main button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  main input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .radio-group {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+  }
+  #message-board {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.sender-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.sender-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #40a9ff;
+  margin-right: 5px;
+}
+
+.sender {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.message-text {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  color: #4a4a4a;
+  white-space: pre-wrap;
+}
+.section-messages {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.section-messages th, .section-messages td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.section-messages th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.section-messages {
+  font-family: sans-serif;
+}
+
+.section-messages tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+
+
+.section-messages .message-unread {
+  font-weight: bold;
+  color: #369; 
+}
+
+  /* Additional styles */
+/* Remove the duplicate .section-messages selector */
+
+.section-messages tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.section-messages .message-important {
+  font-weight: bold;
+  color: #c00; 
+}
+
+.section-messages .message-unread {
+  font-weight: bold;
+  color: #369; 
+}

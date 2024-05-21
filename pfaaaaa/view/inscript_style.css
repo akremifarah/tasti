@@ -1,0 +1,196 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+/*zone droite de la page*/
+  
+  .container_connect {
+  margin-left: 1000px;
+  padding-top: 0px;
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #d8d7d5;
+
+  }
+
+/*form container*/
+  .form-container {
+    width: 60%;
+    background-color: #d8d7d5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+  }
+  
+/*nav style*/
+#top-nav {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 40px 200px ;
+
+}
+
+#top-nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+#top-nav ul li {
+padding-right: 250px;
+}
+
+/*links style*/
+
+a{
+	color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:1px 1px 5px #343434;
+  }
+a:hover {
+    text-decoration: underline;
+    color: #DC143C;
+    font-size: 27px;
+    transition: 1s;
+
+  }
+
+.background-image {
+    width: 70%;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+ 
+
+/* style login_form*/
+.signup-form {
+background-color: #d8d7d5;
+}
+
+.signup-form fieldset {
+  border: 1px solid #343434;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.signup-form legend {
+  font-weight: bold;
+  color: #333;
+}
+
+.signup-form .form-group {
+  margin-bottom: 30px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="tel"],
+.signup-form input[type="password"],
+ {
+  width: 60%;
+  padding: 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+
+
+}
+
+input[type="submit"]:hover {
+  background-color: #DC143C;
+}
+input[type="reset"],input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #B22222;
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+}
+
+.signup-form input[type="reset"]:hover {
+  background-color: #DC143C;
+}
+
+
+
+.cnx-form fieldset {
+  border: 1px solid #343434;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.cnx-form legend {
+  font-weight: bold;
+  color: #333;
+}
+
+.cnx-form .form-group {
+  margin-bottom: 30px;
+}
+
+.cnx-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.cnx-form input[type="text"],
+.cnx-form input[type="password"],
+ {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cnx-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:#B22222;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cnx-form input[type="submit"]:hover {
+  background-color: #DC143C;
+}
+
